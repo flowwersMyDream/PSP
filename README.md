@@ -1,12 +1,40 @@
 # MCPSP — Minecraft PSP FORK BY SASHKA: Changelog
 
-DOWNLOAD GAME https://workupload.com/file/sgg8j3rSvDt ( game file size 75 mb, Yowza, that’s a big file. Try again with a file smaller than 25MB)
+DOWNLOAD GAME https://workupload.com/file/Lgxpw8q52Nj UPDATE 10.09.2027 ( game file size 75 mb, Yowza, that’s a big file. Try again with a file smaller than 25MB)
 SOURCE CODE https://workupload.com/file/gv4EjeY56cQ DOWNLOAD 
 A portable port of **Minecraft Pocket Edition (v0.6.1)** for the PlayStation Portable — runs on every PSP model (including the 32 MB PSP-1000) and in PPSSPP.
 
 ---
 
-## Latest Build — Fishing Update + Fixes
+## Latest Build — Skin Menu + Spawner Update
+
+The Skin picker became a real MCPE-style screen, the Monster Spawner learned to accept spawn eggs, and we swept out a couple of troublemakers along the way:
+
+### 🎨 New Skin Menu (MCPE-style)
+
+- **Options → Skin is now a button, not a slider** — it opens a dedicated *Skin* screen, just like in MCPE.
+- **Real 3D preview** — your character is shown in 3D and **slowly rotates** like a carousel, with gentle head-and-arm sway so it feels alive.
+- **Beautiful twilight design** — a smooth violet-indigo gradient backdrop, classic Minecraft inventory-style window frame, dreamy pink-to-violet viewport and a soft floor shadow under the character.
+- **Pink & gold palette** — gold title, pink highlights; the selected skin name glows pink and the active skin is tinted pink in the list.
+- **Custom skin support** — drop `custom.png` (64×32) into `data/skins/` and it automatically joins the list; the preview uses your very own texture.
+- **Removed the old wireframe skin preview** from Options — a suspicious block of code that was the hiding place of a nasty crash. Gone for good.
+
+### 🥚 Charge Spawners with Eggs
+
+- **Spawn eggs now work on Monster Spawners** — use any egg on a spawner to change which mob it summons; the egg is spent, just like in Minecraft.
+- **Spawner supports animals too** — you can load Pig/Cow/Chicken/Sheep into a spawner; they spawn up even on **Peaceful** difficulty, with proper creature caps.
+- **New spawner texture** — the in-world block texture and the Creative-inventory icon both got a fresh, brand-new look.
+
+### 🔧 Fixes & Removals
+
+- **Golden Hour Sunsets removed** — the effect broke the sky rendering and made the world feel sluggish; the block of warm sunset colors, the sunset-cloud pass and its news entry are all cleaned out.
+- World loading is untouched — it behaves exactly as before.
+
+---
+
+## Previous Updates
+
+### 🎣 Fishing Update + Fixes
 
 The entire fishing feature, from Creative menu to the catch, is now finished and polished — together with the fixes we bumped into along the way:
 
